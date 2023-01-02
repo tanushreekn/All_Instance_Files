@@ -1,0 +1,88 @@
+anu
+asha
+file1
+file2
+file3
+foo1
+nohup.out
+shell
+anu
+asha
+file1
+file2
+file3
+foo1
+nohup.out
+shell
+total 20
+drwxrwxr-x 2 ubuntu ubuntu 4096 Dec  8 08:28 anu
+drwxrwxr-x 2 ubuntu ubuntu 4096 Dec  8 08:25 asha
+-rw-rw-r-- 1 ubuntu ubuntu  148 Dec 13 06:33 file1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Dec 10 05:13 file2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Dec 10 05:13 file3
+lrwxrwxrwx 1 ubuntu ubuntu    3 Dec  8 08:01 foo1 -> foo
+-rw-rw-r-- 1 ubuntu ubuntu  148 Dec 13 06:42 new
+-rw------- 1 ubuntu ubuntu   96 Dec 13 06:40 nohup.out
+lrwxrwxrwx 1 ubuntu ubuntu    9 Dec  8 08:03 shell -> shell.txt
+total 20
+drwxrwxr-x 2 ubuntu ubuntu 4096 Dec  8 08:28 anu
+drwxrwxr-x 2 ubuntu ubuntu 4096 Dec  8 08:25 asha
+-rw-rw-r-- 1 ubuntu ubuntu  148 Dec 13 06:33 file1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Dec 10 05:13 file2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Dec 10 05:13 file3
+lrwxrwxrwx 1 ubuntu ubuntu    3 Dec  8 08:01 foo1 -> foo
+-rw-rw-r-- 1 ubuntu ubuntu  148 Dec 13 06:42 new
+-rw------- 1 ubuntu ubuntu  582 Dec 13 06:43 nohup.out
+lrwxrwxrwx 1 ubuntu ubuntu    9 Dec  8 08:03 shell -> shell.txt
+/home/ubuntu
+anu
+asha
+file1
+file2
+file3
+foo1
+new
+nohup.out
+shell
+top: failed tty get
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:domain        0.0.0.0:*               LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+udp        0      0 localhost:domain        0.0.0.0:*                          
+udp        0      0 ip-172-31-7-216.:bootpc 0.0.0.0:*                          
+udp        0      0 localhost:323           0.0.0.0:*                          
+udp6       0      0 ip6-localhost:323       [::]:*                             
+raw6       0      0 [::]:ipv6-icmp          [::]:*                  7          
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     448016   /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     448023   /run/user/1000/bus
+unix  2      [ ACC ]     STREAM     LISTENING     14415    @/org/kernel/linux/storage/multipathd
+unix  2      [ ACC ]     STREAM     LISTENING     448025   /run/user/1000/gnupg/S.dirmngr
+unix  2      [ ACC ]     STREAM     LISTENING     448027   /run/user/1000/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     448029   /run/user/1000/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     448031   /run/user/1000/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     448033   /run/user/1000/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     448035   /run/user/1000/pk-debconf-socket
+unix  2      [ ACC ]     STREAM     LISTENING     448037   /run/user/1000/snapd-session-agent.socket
+unix  2      [ ACC ]     STREAM     LISTENING     14402    /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     14404    /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     14405    /run/systemd/io.system.ManagedOOM
+unix  2      [ ACC ]     STREAM     LISTENING     14413    /run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     STREAM     LISTENING     14418    /run/systemd/fsck.progress
+unix  2      [ ACC ]     STREAM     LISTENING     14430    /run/systemd/journal/stdout
+unix  2      [ ACC ]     SEQPACKET  LISTENING     14433    /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     14469    /run/systemd/journal/io.systemd.journal
+unix  2      [ ACC ]     STREAM     LISTENING     18357    /var/lib/amazon/ssm/ipc/termination
+unix  2      [ ACC ]     STREAM     LISTENING     16433    /run/systemd/resolve/io.systemd.Resolve
+unix  2      [ ACC ]     STREAM     LISTENING     16693    /var/snap/lxd/common/lxd/unix.socket
+unix  2      [ ACC ]     STREAM     LISTENING     16695    /var/snap/lxd/common/lxd-user/unix.socket
+unix  2      [ ACC ]     STREAM     LISTENING     16670    /run/acpid.socket
+unix  2      [ ACC ]     STREAM     LISTENING     16680    /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     16697    /run/snapd.socket
+unix  2      [ ACC ]     STREAM     LISTENING     16699    /run/snapd-snap.socket
+unix  2      [ ACC ]     STREAM     LISTENING     16702    /run/uuidd/request
+unix  2      [ ACC ]     STREAM     LISTENING     18356    /var/lib/amazon/ssm/ipc/health
+unix  2      [ ACC ]     STREAM     LISTENING     16692    @ISCSIADM_ABSTRACT_NAMESPACE
